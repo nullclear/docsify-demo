@@ -19,7 +19,7 @@
 <script>
     window.$docsify = {
         name: 'docsify-demo',
-        repo: '',
+        repo: 'nullclear/docsify-demo',
         maxLevel: 5, //最大支持渲染的标题层级
         subMaxLevel: 4,
         homepage: 'README.md',
@@ -36,8 +36,8 @@
         },
         plugins: [
             EditOnGithubPlugin.create(
-                'https://github.com/docsifyjs/docsify/blob/master/docs/',
-                'https://github.com/docsifyjs/docsify/blob/develop/docs/',
+                'https://github.com/nullclear/docsify-demo/blob/master/docs/',
+                null,
                 function (filename) {
                     if (filename.indexOf('zh') !== -1) {
                         return '在Github上编辑'

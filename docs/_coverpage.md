@@ -5,4 +5,4 @@
 
 [Go to Introduction](#introduction)
 [Go to Demo](#demo)
-[Go to Github](https://github.com/docsifyjs/docsify)
+[Go to Github](https://github.com/nullclear/docsify-demo)
